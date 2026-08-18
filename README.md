@@ -5,17 +5,18 @@ It covers SSH, system updates, firewall, user accounts, file permissions, servic
 
 ## Structure
 
+Project Structure
 linux-hardening/
-├── harden.sh
-├── modules/
-│   ├── ssh.sh
-│   ├── packages.sh
-│   ├── firewall.sh
-│   ├── users.sh
-│   ├── permissions.sh
-│   ├── services.sh
-│   └── logging.sh
-└── README.md
+- harden.sh
+- modules/
+  - ssh.sh
+  - packages.sh
+  - firewall.sh
+  - users.sh
+  - permissions.sh
+  - services.sh
+  - logging.sh
+- README.md
 
 ## Prerequisites
 
