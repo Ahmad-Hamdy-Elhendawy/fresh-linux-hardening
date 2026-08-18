@@ -6,15 +6,15 @@ It covers SSH, system updates, firewall, user accounts, file permissions, servic
 ## Structure
 
 linux-hardening/
-├── harden.sh                 # Main entry point
+├── harden.sh
 ├── modules/
-│   ├── ssh.sh                # SSH configuration & hardening
-│   ├── packages.sh           # System update management
-│   ├── firewall.sh           # firewalld lockdown
-│   ├── users.sh              # User accounts & sudo
-│   ├── permissions.sh        # File permissions, SUID/SGID, world‑writable
-│   ├── services.sh           # Service status & enable/disable helpers
-│   └── logging.sh            # Journald, rsyslog, auditd
+│   ├── ssh.sh
+│   ├── packages.sh
+│   ├── firewall.sh
+│   ├── users.sh
+│   ├── permissions.sh
+│   ├── services.sh
+│   └── logging.sh
 └── README.md
 
 ## Prerequisites
